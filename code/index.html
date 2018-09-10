@@ -4,10 +4,35 @@
     <meta charset="utf-8" />
     <title>Sprint 1: Hero video assignment</title>
     <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet">
   </head>
   <body>
 
   <!-- place your code here -->
+  <article>
+    <div class="content">
 
+        <video controls autoplay muted class="mobile-video">
+          <source src="./videos/SampleVideo_360x240_1mb.mp4" type="video/mp4"/>
+          <source src="./videos/SampleVideo_360x240_1mb.webm" type="video/webm"/>
+        </video>
+
+        <video controls autoplay muted class="tablet-video">
+          <source src="./videos/SampleVideo_720x480_1mb.mp4" type="video/mp4"/>
+          <source src="./videos/SampleVideo_720x480_1mb.webm" type="video/webm"/>
+        </video>
+
+        <video controls autoplay muted class="big-video">
+          <source src="./videos/SampleVideo_1280x720_1mb.mp4" type="video/mp4"/>
+          <source src="./videos/SampleVideo_1280x720_1mb.webm" type="video/webm"/>
+        </video>
+
+        <div class="text-button">
+          <h1>MY VIDEO</h1>
+          <a href="https://confetti.events/en/" target="_blank">CLICK HERE!</a>
+        </div>
+      </div>
+    </article>
   </body>
 </html>
